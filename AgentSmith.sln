@@ -1,0 +1,133 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33513.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{084879A5-1B0A-41F2-86B8-ACE785514431}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgentSmith", "BootstrapperSite\AgentSmith.csproj", "{0925F2D6-AEFF-47E9-8BA2-767FDC610AAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlazingQuartz", "BlazingQuartz", "{20F88C4D-5795-4E8C-B7C3-EC4AA8662C7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RulesEngine", "RulesEngine", "{2560BFFB-68E1-4562-A016-ADFD007A5F3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazingQuartz.Core.Data", "BlazingQuartz\BlazingQuartz.Core.Data\BlazingQuartz.Core.Data.csproj", "{616992DA-3B61-478A-B355-E2FBC71ADABE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazingQuartz.Core", "BlazingQuartz\BlazingQuartz.Core\BlazingQuartz.Core.csproj", "{DE8AD7B3-E8EC-4E8A-983B-BB3292DDD253}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazingQuartz.Jobs.Abstractions", "BlazingQuartz\BlazingQuartz.Jobs.Abstractions\BlazingQuartz.Jobs.Abstractions.csproj", "{5953F668-D8C9-4FCD-B2F9-1936EE2A7662}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazingQuartz.Jobs", "BlazingQuartz\BlazingQuartz.Jobs\BlazingQuartz.Jobs.csproj", "{1EB347B3-F0DF-4173-922E-871BFFFF49FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", "{6F184E65-37DE-4734-A5B0-C316D844BE63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{021C9C48-1EB1-4268-B09C-7A2F8563C2FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbContextMigrations", "BlazingQuartz\DBMigrations\DbContextMigrations\DbContextMigrations.csproj", "{14F1CA28-EC2C-4E26-BC5B-6032D6B23948}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostgreSQLMigrations", "BlazingQuartz\DBMigrations\PostgreSQLMigrations\PostgreSQLMigrations.csproj", "{FF813A4B-D89F-404D-83D5-2D4F49A7EB1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqliteMigrations", "BlazingQuartz\DBMigrations\SqliteMigrations\SqliteMigrations.csproj", "{CD1F481C-B42F-4E36-B930-3A1A6D262740}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlServerMigrations", "BlazingQuartz\DBMigrations\SqlServerMigrations\SqlServerMigrations.csproj", "{BA91D2DF-A9FA-45ED-9B41-ECEA29DB7778}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazingQuartz.Core.Test", "BlazingQuartz\Tests\BlazingQuartz.Core.Test\BlazingQuartz.Core.Test.csproj", "{7FCFDB01-8B9F-4EEA-A052-D89FDBB3702C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazingQuartz.Jobs.Abstractions.Test", "BlazingQuartz\Tests\BlazingQuartz.Jobs.Abstractions.Test\BlazingQuartz.Jobs.Abstractions.Test.csproj", "{644252E9-D957-4C9E-959D-EFA8230DA421}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazingQuartz.Jobs.Test", "BlazingQuartz\Tests\BlazingQuartz.Jobs.Test\BlazingQuartz.Jobs.Test.csproj", "{69A1053E-6111-4D10-BB2E-AFBB06F4DF31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazingQuartz.Test.Shared", "BlazingQuartz\Tests\BlazingQuartz.Test.Shared\BlazingQuartz.Test.Shared.csproj", "{D213BEFE-26B9-4B42-964F-07AEF7F6D4B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazingQuartz", "BlazingQuartz\BlazingQuartz\BlazingQuartz.csproj", "{6EC2909E-C873-4E94-B40F-E39247FEFCB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0925F2D6-AEFF-47E9-8BA2-767FDC610AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0925F2D6-AEFF-47E9-8BA2-767FDC610AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0925F2D6-AEFF-47E9-8BA2-767FDC610AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0925F2D6-AEFF-47E9-8BA2-767FDC610AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{616992DA-3B61-478A-B355-E2FBC71ADABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{616992DA-3B61-478A-B355-E2FBC71ADABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{616992DA-3B61-478A-B355-E2FBC71ADABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{616992DA-3B61-478A-B355-E2FBC71ADABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE8AD7B3-E8EC-4E8A-983B-BB3292DDD253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8AD7B3-E8EC-4E8A-983B-BB3292DDD253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8AD7B3-E8EC-4E8A-983B-BB3292DDD253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8AD7B3-E8EC-4E8A-983B-BB3292DDD253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5953F668-D8C9-4FCD-B2F9-1936EE2A7662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5953F668-D8C9-4FCD-B2F9-1936EE2A7662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5953F668-D8C9-4FCD-B2F9-1936EE2A7662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5953F668-D8C9-4FCD-B2F9-1936EE2A7662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EB347B3-F0DF-4173-922E-871BFFFF49FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB347B3-F0DF-4173-922E-871BFFFF49FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB347B3-F0DF-4173-922E-871BFFFF49FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB347B3-F0DF-4173-922E-871BFFFF49FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F1CA28-EC2C-4E26-BC5B-6032D6B23948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F1CA28-EC2C-4E26-BC5B-6032D6B23948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F1CA28-EC2C-4E26-BC5B-6032D6B23948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F1CA28-EC2C-4E26-BC5B-6032D6B23948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF813A4B-D89F-404D-83D5-2D4F49A7EB1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF813A4B-D89F-404D-83D5-2D4F49A7EB1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF813A4B-D89F-404D-83D5-2D4F49A7EB1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF813A4B-D89F-404D-83D5-2D4F49A7EB1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD1F481C-B42F-4E36-B930-3A1A6D262740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1F481C-B42F-4E36-B930-3A1A6D262740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1F481C-B42F-4E36-B930-3A1A6D262740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1F481C-B42F-4E36-B930-3A1A6D262740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA91D2DF-A9FA-45ED-9B41-ECEA29DB7778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA91D2DF-A9FA-45ED-9B41-ECEA29DB7778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA91D2DF-A9FA-45ED-9B41-ECEA29DB7778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA91D2DF-A9FA-45ED-9B41-ECEA29DB7778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FCFDB01-8B9F-4EEA-A052-D89FDBB3702C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FCFDB01-8B9F-4EEA-A052-D89FDBB3702C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FCFDB01-8B9F-4EEA-A052-D89FDBB3702C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FCFDB01-8B9F-4EEA-A052-D89FDBB3702C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{644252E9-D957-4C9E-959D-EFA8230DA421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{644252E9-D957-4C9E-959D-EFA8230DA421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{644252E9-D957-4C9E-959D-EFA8230DA421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{644252E9-D957-4C9E-959D-EFA8230DA421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69A1053E-6111-4D10-BB2E-AFBB06F4DF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A1053E-6111-4D10-BB2E-AFBB06F4DF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A1053E-6111-4D10-BB2E-AFBB06F4DF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A1053E-6111-4D10-BB2E-AFBB06F4DF31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D213BEFE-26B9-4B42-964F-07AEF7F6D4B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D213BEFE-26B9-4B42-964F-07AEF7F6D4B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D213BEFE-26B9-4B42-964F-07AEF7F6D4B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D213BEFE-26B9-4B42-964F-07AEF7F6D4B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EC2909E-C873-4E94-B40F-E39247FEFCB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EC2909E-C873-4E94-B40F-E39247FEFCB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EC2909E-C873-4E94-B40F-E39247FEFCB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EC2909E-C873-4E94-B40F-E39247FEFCB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{616992DA-3B61-478A-B355-E2FBC71ADABE} = {20F88C4D-5795-4E8C-B7C3-EC4AA8662C7C}
+		{DE8AD7B3-E8EC-4E8A-983B-BB3292DDD253} = {20F88C4D-5795-4E8C-B7C3-EC4AA8662C7C}
+		{5953F668-D8C9-4FCD-B2F9-1936EE2A7662} = {20F88C4D-5795-4E8C-B7C3-EC4AA8662C7C}
+		{1EB347B3-F0DF-4173-922E-871BFFFF49FF} = {20F88C4D-5795-4E8C-B7C3-EC4AA8662C7C}
+		{6F184E65-37DE-4734-A5B0-C316D844BE63} = {20F88C4D-5795-4E8C-B7C3-EC4AA8662C7C}
+		{021C9C48-1EB1-4268-B09C-7A2F8563C2FC} = {20F88C4D-5795-4E8C-B7C3-EC4AA8662C7C}
+		{14F1CA28-EC2C-4E26-BC5B-6032D6B23948} = {6F184E65-37DE-4734-A5B0-C316D844BE63}
+		{FF813A4B-D89F-404D-83D5-2D4F49A7EB1C} = {6F184E65-37DE-4734-A5B0-C316D844BE63}
+		{CD1F481C-B42F-4E36-B930-3A1A6D262740} = {6F184E65-37DE-4734-A5B0-C316D844BE63}
+		{BA91D2DF-A9FA-45ED-9B41-ECEA29DB7778} = {6F184E65-37DE-4734-A5B0-C316D844BE63}
+		{7FCFDB01-8B9F-4EEA-A052-D89FDBB3702C} = {021C9C48-1EB1-4268-B09C-7A2F8563C2FC}
+		{644252E9-D957-4C9E-959D-EFA8230DA421} = {021C9C48-1EB1-4268-B09C-7A2F8563C2FC}
+		{69A1053E-6111-4D10-BB2E-AFBB06F4DF31} = {021C9C48-1EB1-4268-B09C-7A2F8563C2FC}
+		{D213BEFE-26B9-4B42-964F-07AEF7F6D4B5} = {021C9C48-1EB1-4268-B09C-7A2F8563C2FC}
+		{6EC2909E-C873-4E94-B40F-E39247FEFCB2} = {20F88C4D-5795-4E8C-B7C3-EC4AA8662C7C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1F0E46C-F214-43C6-8375-4AA21BD145F2}
+	EndGlobalSection
+EndGlobal
